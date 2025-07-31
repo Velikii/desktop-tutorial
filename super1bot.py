@@ -1,3 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+Название файла: super1bot.py
+Автор: Dennis Velikii (https://github.com/Velikii)
+Дата создания: 29.07.2025
+Описание: стартовый проект бота в телеграмм с минимальными функциями для дальнейшего наполнения
+Лицензия: MIT
+Версия: 1.0
+"""
+
+
 import logging
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
